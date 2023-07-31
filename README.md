@@ -1,5 +1,5 @@
 # SES
-Public implementation of SES: Bridging the Gap Between Explainability and Prediction of Graph Neural Networks
+Official implementation of SES: Bridging the Gap Between Explainability and Prediction of Graph Neural Networks.<br><br><br>
 ![SES](https://github.com/PreckLi/SES/blob/main/mainfig.png)
 ## Requirements
 - torch==2.0.0  
