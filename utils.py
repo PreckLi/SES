@@ -210,7 +210,7 @@ def test_fidelity(feat_mask, data, args):
         loss.backward()
         optim.step()
     model.eval()
-    pred = model(data.x, data.edge_index).argmax(dim=-1)
+    pred = model(data.x * feat_mask, data.edge_index).argmax(dim=-1)
     correct = pred[data.test_mask] == data.y[data.test_mask]
     acc = int(correct.sum()) / int(data.test_mask.sum())
     print(f"previous acc:{acc}")
