@@ -12,3 +12,17 @@ Specifically, the download URL of datasets can refer to https://pytorch-geometri
 ```
   python main.py
 ```
+## Cite
+- Cite as follows:
+```
+@INPROCEEDINGS{10597945,
+  author={Huang, Zhenhua and Li, Kunhao and Wang, Shaojie and Jia, Zhaohong and Zhu, Wentao and Mehrotra, Sharad},
+  booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)}, 
+  title={SES: Bridging the Gap Between Explainability and Prediction of Graph Neural Networks}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={2945-2958},
+  keywords={Training;Bridges;Accuracy;Reliability engineering;Data engineering;Graph neural networks;Generators;Graph Neural Networks;Model Explanation;Node Classification;Self-Supervised Learning},
+  doi={10.1109/ICDE60146.2024.00229}}
+```
